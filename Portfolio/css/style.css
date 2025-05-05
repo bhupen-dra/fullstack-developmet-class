@@ -3,3 +3,28 @@
     margin: auto;
 }
 
+li:hover{
+    color: #67b2f8;
+    text-shadow: #88aed1 0px 0px 10px;
+    font: bold 1.2em  arial,sans-serif;
+}
+
+h1{
+    color: #fefefc;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3.5em;
+    font-weight: bolder;
+}
+
+span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+h2{
+    color: white;
+}
+img{
+    
+}

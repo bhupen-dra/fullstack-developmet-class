@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>use of js</title>
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form onsubmit="hello();return false">
+      <label for="Name">Name</label>
+      <input
+        class="border-2"
+        type="text"
+        id="name"
+        name="Name"
+        placeholder="Enter Your Name"
+        required
+      />
+      <label for="address">Address</label>
+      <input
+        class="border-2"
+        type="text"
+        id="address"
+        name="address"
+        placeholder="Enter Your Address"
+      />
+      <button class="border-2" type="submit">submit</button>
+    </form>
+    <div id="parent">
+      <img
+        id="cert"
+        src="https://m.media-amazon.com/images/I/51QVAofmwCL._SS400_.jpg"
+        alt=""
+      />
+    </div>
+    <h1 id="iname"></h1>
+    <h1 id="iaddress"></h1>
+
+    <script src="script.js"></script>
+  </body>
+</html>

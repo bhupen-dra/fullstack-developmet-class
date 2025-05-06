@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js practice</title>
+    <link rel="stylesheet" href="/src/output.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form onsubmit="hello();return false">
+        <label for="Name">Name</label>
+        <input class="border-2" type="text" id="Name" name="Name" placeholder="Enter Your Name" required>
+        <button class="border-2 " type="submit">submit</button>
+    </form>
+    <div>
+        <p id="pop">
+            your name is <span id="ram"></span>
+        </p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->

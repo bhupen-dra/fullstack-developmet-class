@@ -1,73 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-   <link rel="stylesheet" href="/src/output.css">
-   <link rel="stylesheet" href="/portfolio/css/style.css">
-</head>
-<body class="bg-[#13162e]">
-   <header >
-        <nav class="flex justify-between py-4 container">
+    <link rel="stylesheet" href="/src/output.css" />
+    <link rel="stylesheet" href="/portfolio/css/style.css" />
+  </head>
+  <body class="bg-[#13162e]">
+    <header>
+      <nav class="flex justify-between py-4 container">
             <div>
-                <img src="/portfolio/photos/LOGO.png" alt="logo" class="w-12">
+                <img src="/portfolio/photos/LOGO.png" alt="logo" class="w-12" />
             </div>
             <div>
-                <ul class="flex justify-end items-center gap-10 p-4 text-white font-semibold ">
+                <ul class="flex justify-end items-center gap-10 p-4 text-white font-semibold">
                     <li>
-                        <a href="">HOME</a>
+                        <a href="#home">HOME</a>
                     </li>
                     <li>
-                        <a href="">ABOUT ME</a>
+                        <a href="#about me">ABOUT ME</a>
                     </li>
                     <li>
-                        <a href="">PORTFOLIO</a>
+                        <a href="#">PORTFOLIO</a>
                     </li>
                     <li>
-                        <a href="">SERVICES</a>
+                        <a href="#">SERVICES</a>
                     </li>
                     <li>
-                        <a href="">EXPERIENCE</a>
+                        <a href="#">EXPERIENCE</a>
                     </li>
                     <li>
-                        <a href="">CONTACT</a>
+                        <a href="#">CONTACT</a>
                     </li>
                 </ul>
-            </div>        
-        </nav>
-   </header>
-    <main class="container ">
-        <section>
+            </div>
+      </nav>
+    </header>
+    <main class="container">
+        <section id="home">
             <div>
+                <span class="me text-[#8a8d99]">I'm a</span>
+                <h1>FULLSTACK</h1>
+                <h1>SOFTWARE</h1>
+                <h1>DEVELOPER <span class="text-gray-400">...</span></h1>
+            </div>
+            <div>
+                <button class="bg-[#5c68f5] py-2 px-4 rounded-4xl text-2xl text-white font-semibold">
+                Previous Projects</button>
+            </div>
+        </section>
+        <section id="about me">
+            <div class="flex justify-between items-center gap-40 py-8">
                 <div>
-                    <span class="text-[#8a8d99]">I'm a</span>
-                    <h1>FULLSTACK</h1>
-                    <h1>SOFTWARE</h1>
-                    <h1>DEVELOPER</h1>
-
+                    <img class="hero" src="/portfolio/photos/hero.jpg" alt="bhupendra dewan limbu"/>
                 </div>
-                <div class="flex justify-between items-center gap-40">
-                    <div>
-                        <img src="https://scontent.fbir1-1.fna.fbcdn.net/v/t39.30808-6/475105882_2041057052974212_1339485799615783071_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a5f93a&_nc_ohc=tB9Y7jrbX9IQ7kNvwEFYdcj&_nc_oc=AdnR96c-SMmh79B0khd_TPtCWz3PRrZdTkFahpiOQ6-qN5hUC5p1qxBn_kL2-fsJPuo16Kkv5ve4kEE3ZqCzyAbA&_nc_zt=23&_nc_ht=scontent.fbir1-1.fna&_nc_gid=pdPCOms6POt3aVCOZHJtRg&oh=00_AfFFsJXgM-nhyW83zrmwxbJIbPFTgfchLDYZFQR8BWVqzg&oe=681EE0EA" alt="bhupendra dewan limbu" class="border-blue-400 border-2 w-auto
-                        ">
-                    </div>
-                    <div class="flex flex-col justify-center items-center gap-10">
-                        <article>
-                            <h2>ABOUT ME</h2>
-                            <p class="text-[#888b98]">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore ex pariatur odio ducimus illo aspernatur unde. Exercitationem adipisci dicta quibusdam unde natus, amet iure repellat quae vitae quos cum harum!
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis sint veritatis tenetur. Voluptatibus eum repellendus odit autem, commodi nulla harum.
-                            </p>
-                        </article>
-                        <button class="border-2 rounded-2xl py-2 px-4 bg-blue-400 font-bolder ">HIRE ME</button>
-                    </div>
+                <div class="flex flex-col justify-center items-center gap-10">
+                    <article>
+                        <h2>ABOUT ME</h2>
+                        <p class="text-[#888b98]">
+                            I am a fullstack software developer with a passion for creating dynamic and responsive web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies and improve my skills. I am a team player who enjoys collaborating with others to solve complex problems and deliver high-quality software solutions.
+                            I am currently seeking new opportunities to grow my career and make a positive impact in the tech industry. If you are looking for a dedicated and skilled developer to join your team, please feel free to reach out to me. I would love to connect and discuss how I can contribute to your projects and help achieve your goals.
+                        </p>
+                    </article>
+                    <button class="border-2 rounded-2xl py-2 px-4 bg-blue-400 font-bolder text-white">HIRE ME</button>
                 </div>
             </div>
         </section>
+        <section id="portfolio">
+            <div class="flex justify-between items-center gap-40">
+                <div class="flex flex-col justify-center items-center gap-10">
+                    <article>
+                        <h2>PORTFOLIO</h2>
+                        <p class="text-[#888b98]">
+                            I am a fullstack software developer with a passion for creating dynamic and responsive web applications. I have experience in both front-end and back-end development, and I am always eager to learn new technologies and improve my skills. I am a team player who enjoys collaborating with others to solve complex problems and deliver high-quality software solutions.
+                            I am currently seeking new opportunities to grow my career and make a positive impact in the tech industry. If you are looking for a dedicated and skilled developer to join your team, please feel free to reach out to me. I would love to connect and discuss how I can contribute to your projects and help achieve your goals.
+                        </p>
     </main>
     <footer></footer>
-</body>
+  </body>
 </html>
 
 <!-- npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch -->

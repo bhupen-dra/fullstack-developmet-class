@@ -7,6 +7,14 @@ img{
     height: 500px;
 }
 
+#name{
+    background-color: aqua;
+}
+
+#email{
+    background-color: aqua;
+}
+
 #iname{
     position: absolute;
     top: 135px;
